@@ -31,7 +31,7 @@ curl -X POST http://localhost:5000/login \
 
 Response:
 ```json
-{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."}
+{"token": "<JWT_TOKEN>"}
 ```
 
 ### Access Protected Route

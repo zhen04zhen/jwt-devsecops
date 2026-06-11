@@ -3,7 +3,6 @@ from datetime import datetime, timedelta, timezone
 
 import jwt
 
-JWT_SECRET = "hardcoded-secret-key-DO-NOT-COMMIT-1234"
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev-only-default")
 JWT_ALGORITHM = "HS256"
 JWT_EXPIRY_HOURS = 1

@@ -41,7 +41,7 @@ jobs:
 
       # ── 6. SAST 靜態分析（ShiftLeft Scan）──
       - name: SAST scan with ShiftLeft
-        uses: ShiftLeft/scan-action@master
+        uses: ShiftLeftSecurity/scan-action@master
         with:
           type: python
         env:
